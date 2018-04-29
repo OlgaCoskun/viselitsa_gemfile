@@ -5,15 +5,15 @@
 *Требования: Linux + ruby версии 2.4.1 и выше*
 
 1. Скачайте репозиторий.
+
 2. Установите гемы из Gemfile командой 
 ```bash
-$ bundle exec
+$ bundle
 ```
 3. Запустить программу через бандлер 
 ```bash
 $ bundle exec ruby viselitsa.rb
 ```
-4. Следуйте подсказкам программы.
 
 ### Логика программы:
 Компьютер загадывает любое слово из файла [/data/words.txt](https://github.com/OlgaCoskun/super_viselitsa/tree/master/data)
